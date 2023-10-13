@@ -2,8 +2,8 @@ import { useMemo, useRef } from 'react';
 import * as THREE from 'three';
 import { useFrame } from '@react-three/fiber';
 
-import fragmentShader from './shaders/frag.frag';
-import vertexShader from './shaders/vert.vert';
+import fragmentShader from '@/shaders/frag.frag';
+import vertexShader from '@/shaders/vert.vert';
 
 const TPlane = () => {
   const mesh = useRef();
